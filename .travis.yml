@@ -3,8 +3,15 @@ dist: bionic
 arch:
   - ppc64le
 language: java
+addons:
+    apt: 
+     update: true
+     packages:
+        - phantomjs
+        - python 39
 cache:
   directories:
   - "$HOME/.m2"
+
 script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - travis_wait 50 mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
