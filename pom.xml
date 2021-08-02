@@ -1131,6 +1131,10 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+     <repository>
+      <id>gradle-libraries</id>
+      <url>https://repo.gradle.org/gradle/libs-releases</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
