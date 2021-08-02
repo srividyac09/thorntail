@@ -8,5 +8,4 @@ cache:
   directories:
   - "$HOME/.m2"
 
-script:
-  - travis_wait 20 mvn clean install
+
