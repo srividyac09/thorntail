@@ -9,4 +9,4 @@ cache:
   - "$HOME/.m2"
 
 script:
-  - travis_wait 50 mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - travis_wait 20 mvn clean install
