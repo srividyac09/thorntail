@@ -3,12 +3,9 @@ dist: bionic
 arch:
   - ppc64le
 language: java
-addons:
-    apt: 
-     update: true
-     packages:
-        - phantomjs
-        - python 39
+install:
+  - phantomjs
+
 cache:
   directories:
   - "$HOME/.m2"
