@@ -3,8 +3,6 @@ dist: bionic
 arch:
   - ppc64le
 language: java
-install:
-  - phantomjs
 
 cache:
   directories:
