@@ -18,6 +18,6 @@ before_install:
 
   
 script:
-  - travis_wait 10 mvn install
+  - travis_wait 20 mvn install
 
 
