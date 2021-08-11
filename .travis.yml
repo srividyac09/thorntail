@@ -17,6 +17,6 @@ before_install:
 
   
 script:
-  - travis_wait 50 mvn clean install
+  - travis_wait 50 mvn install
 
 
