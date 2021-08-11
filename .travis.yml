@@ -6,6 +6,7 @@ language: java
 cache:
   directories:
     - travis_phantomjs
+    - $HOME/.m2
 
 before_install:
   # Upgrade PhantomJS to v2.1.1.
